@@ -1,0 +1,263 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.menu{
+ max-width: 1140px;
+ display: block;
+ margin: 0 auto;
+}
+html body{
+    font-family: sans-serif;
+    background-color: white;
+}
+.row{
+    display: flex;
+    align-items: center;
+}
+header{
+    background: #00008B;
+    padding: 15px 0;
+    height: 55px;
+    position: relative;
+}
+.logo{
+    display: block;
+    max-width: 180px;
+}
+.logo img{
+    width: 100px;
+    height: 60px;
+    padding: 20px;
+}
+
+.tl{
+    font-size: 25px;
+    color:#FFFAF0 ;
+    text-decoration: none;
+    padding: 10px 12px;
+    list-style: none;
+}
+.main-menu{
+    display: flex;
+    align-items: center;
+}
+.main-menu li{
+    list-style: none;
+}
+.main-menu li a{
+    display: block;
+    color:#FFFAF0 ;
+    text-decoration: none;
+    padding: 10px 12px;
+    font-size: 25px;
+}
+.search{
+    margin-left: auto;
+}
+.search .sb-sbm{
+    color: transparent;
+    width: 40px;
+    background: transparent url(IMG/kn.png) no-repeat center;
+    background-size: contain;
+}
+.search .sb-text{
+border-radius: 20px;
+padding: 0 10px;
+line-height: 25px;
+}
+.search input{
+ height: 30px;
+ border: none;
+ outline: 0;
+ width: 200px;
+}
+header #home-nav{
+    display: flex;
+    align-items: center;
+}
+.menu-theloai{
+    position: absolute;
+    left: 0;
+    width: 96%;
+    background: #00008B;
+    height: 200px;
+    padding: 20px 25px 0 25px;
+    opacity: 0;
+    visibility: hidden;
+    box-shadow: 0 2px 2px 0 black;
+    transition: .5s;
+    z-index: 2;
+}
+
+.menu-theloai #menu-lt li{
+ float: left;
+ width: 200px;
+ list-style: none;
+ padding: 10px 0;
+ 
+}
+
+.theloai a:link{
+    text-decoration: none;
+    color: #FFFAF0;
+}
+.theloai a:visited{
+  text-decoration: none;
+  color: #FFFAF0;
+}
+.theloai a:hover{
+    text-decoration: underline;
+    text-decoration-style:solid;
+    text-decoration-color:#F08080;
+    color: #00BFFF;
+}
+.menu-theloai.open{
+  opacity: 1;
+  visibility: visible;
+}
+
+
+.menu-boicanh{
+    position: absolute;
+    left: 0;
+    width: 96%;
+    background: #00008B;
+    height: 200px;
+    padding: 20px 25px 0 25px;
+    opacity: 0;
+    visibility: hidden;
+    box-shadow: 0 2px 2px 0 black;
+    transition: .5s;
+    z-index: 2;
+}
+.menu-boicanh #menu-bc li{
+ float: left;
+ width: 200px;
+ list-style: none;
+ padding: 10px 0;
+ 
+}
+
+.boicanh a:link{
+    text-decoration: none;
+    color: #FFFAF0;
+}
+.boicanh a:visited{
+  text-decoration: none;
+  color: #FFFAF0;
+}
+.boicanh a:hover{
+    text-decoration: underline;
+    text-decoration-style:solid;
+    text-decoration-color:#F08080;
+    color: #00BFFF;
+}
+.menu-boicanh.open{
+  opacity: 1;
+  visibility: visible;
+}
+
+
+.menu-danhsach{
+    position: absolute;
+    left: 0;
+    width: 96%;
+    background: #00008B;
+    height: 200px;
+    padding: 20px 25px 0 25px;
+    opacity: 0;
+    visibility: hidden;
+    box-shadow: 0 2px 2px 0 black;
+    transition: .5s;
+    z-index: 2;
+}
+.menu-danhsach #menu-ds li{
+ float: left;
+ width: 200px;
+ list-style: none;
+ padding: 10px 0;
+ 
+}
+.danhsach a:link{
+    text-decoration: none;
+    color: #FFFAF0;
+  }
+.danhsach a:visited{
+  text-decoration: none;
+  color: #FFFAF0;
+}
+.danhsach a:hover{
+    text-decoration: underline;
+    text-decoration-style:solid;
+    text-decoration-color:#F08080;
+    color: #00BFFF;
+  }
+.menu-danhsach.open{
+  opacity: 1;
+  visibility: visible;
+}
+
+.theloai-menu a:visited{
+    color:#FFFAF0;
+}
+.theloai-menu a:hover{
+  color: #00BFFF;
+}
+
+.main-menu a:visited{
+    color:#FFFAF0;
+}
+.main-menu a:hover{
+  color: #00BFFF;
+}
+
+
+
+.truyen-hot{
+    position: absolute;
+    left: 0;
+    width: 96%;
+    height: 200px;
+    padding: 20px 25px 0 25px;
+    margin-top: 20px;
+    
+}
+.truyen-hot #at li{
+    float: left;
+    width: 320px;
+    list-style: none;
+    margin-bottom: 20px;
+    text-align: center;
+
+}
+.truyen-hot #at li a{
+    text-decoration: none;
+    color: #000000;
+    
+}
+.menu-bxh{
+    position: absolute;
+    margin-top: 120%;
+    left: 0;
+    margin-left: 100px;
+    text-align: center;
+    font-size: 24px;
+    font-family: sans-serif;
+    border-style: groove;
+    border-radius: 2px ;
+    box-shadow: 0 2px 2px 0 black;
+}
+.tongquan{
+    font-size: 16px;
+    position: absolute;
+    margin-top: 170%;
+    padding: 20px;
+    line-height: 2.2;
+    margin-left: 100px;
+    margin-right: 80px;
+    border-style: groove;
+    border-radius: 2px ;
+    box-shadow: 0 2px 2px 0 black;
+}
+
